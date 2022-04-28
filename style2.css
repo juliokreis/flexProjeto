@@ -54,6 +54,7 @@ header .list-items{
 
 header .menu{
     justify-content: space-between;
+    padding: 10px;
 }
 
 .text-quem-somos{
@@ -119,6 +120,10 @@ header .menu{
     width: 90%;
 }
 
+.text-quem-somos{
+    text-align: justify;
+}
+
 #quem-somos img{
     min-width: 600px;
 }
@@ -147,6 +152,7 @@ header .menu{
 
 .list-servicos .item-servico{
     text-align: center;
+    padding: 30px;
 }
 
 .item-servico a{
@@ -245,9 +251,10 @@ footer{
     display: flex;
     align-items: center;
 }
- footer .footer{
+footer .footer{
      justify-content: space-between;
      color: #fff;
+     padding: 10px;
  }
 
  /* MOBILE */
